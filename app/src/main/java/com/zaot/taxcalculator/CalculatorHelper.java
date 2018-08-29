@@ -80,10 +80,10 @@ public class CalculatorHelper {
         ATSalary = taxSalary - tax + threshold1;
         return "公积金: " + accumulationFund + "\n"
             + "社保: " + medicalTreatment + "\n"
-            + "养老保险" + endowmentInsurance + "\n"
-            + "失业保险" + unemploymentInsurance + "\n"
-            + "个税" + tax + "\n"
-            + "税后工资" + ATSalary;
+            + "养老保险:" + endowmentInsurance + "\n"
+            + "失业保险:" + unemploymentInsurance + "\n"
+            + "个税:" + tax + "\n"
+            + "税后工资:" + ATSalary;
     }
 
 }
