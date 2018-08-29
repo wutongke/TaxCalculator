@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">北京个税计算器</string>
+    <string name="isReformed">税改</string>
+    <string name="calculate">计算</string>
+    <string name="des">仅限北京地区</string>
+    <string name="error">没有数据</string>
+    <string name="switchOn">税改后</string>
+    <string name="switchOff">税改前</string>
+    <string name="salary">月薪</string>
+</resources>
