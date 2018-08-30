@@ -71,8 +71,8 @@ public class CalculatorHelper {
         } else if (taxSalary > threshold2) {
             tax = (taxSalary - threshold2) * rate2
                 + threshold2 * rate1;
-        } else if (taxSalary > threshold1) {
-            tax = (taxSalary - threshold1) * rate1;
+        } else if (taxSalary > 0){
+            tax = taxSalary * rate1;
         } else {
             tax = 0;
         }
